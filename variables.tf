@@ -56,7 +56,6 @@ data "google_compute_regions" "available_regions" {
 }
 variable "region" {
   type = string
-  default = "us-central1"
 }
 variable "external_network_name" {
   type = string
